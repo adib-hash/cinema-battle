@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 // =============================================================================
 // ⚙️  CONFIGURATION — edit these before deploying
 // =============================================================================
-
+//
 // Get a free OMDB key at https://www.omdbapi.com/apikey.aspx (1,000 req/day free)
 // Then either paste it here directly, or (recommended) set VITE_OMDB_KEY in .env
 const OMDB_API_KEY = import.meta.env.VITE_OMDB_KEY || "YOUR_OMDB_KEY_HERE";
