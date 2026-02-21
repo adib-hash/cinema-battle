@@ -11,7 +11,7 @@ const OMDB_API_KEY = import.meta.env.VITE_OMDB_KEY || "YOUR_OMDB_KEY_HERE";
 // Storage mode:
 //   "local"    → localStorage, per-browser (no backend needed, rankings not shared)
 //   "supabase" → shared across all users (requires Supabase setup — see README)
-const STORAGE_MODE = "local";
+const STORAGE_MODE = "supabase";
 
 // If STORAGE_MODE === "supabase", fill these in:
 const SUPABASE_URL  = import.meta.env.VITE_SUPABASE_URL  || "";
