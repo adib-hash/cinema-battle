@@ -14,8 +14,8 @@ const OMDB_API_KEY = import.meta.env.VITE_OMDB_KEY || "YOUR_OMDB_KEY_HERE";
 const STORAGE_MODE = "supabase";
 
 // If STORAGE_MODE === "supabase", fill these in:
-const SUPABASE_URL  = import.meta.env.VITE_SUPABASE_URL  || "";
-const SUPABASE_ANON = import.meta.env.VITE_SUPABASE_ANON || "";
+const SUPABASE_URL  = "https://mohudogfrkucjevydtko.supabase.co";
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vaHVkb2dmcmt1Y2pldnlkdGtvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTY1MDc5MSwiZXhwIjoyMDg3MjI2NzkxfQ.xeZtPZENvUESOFPAosuzKy6PCFq05g9YnnTywcgi5IE";
 
 // Storage keys (bump version suffix to reset all data)
 const MK = "cb-movies-v1";
